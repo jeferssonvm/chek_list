@@ -1,0 +1,4 @@
+jupyter nbconvert --to pdf Fase1_exploracion.ipynb
+jupyter nbconvert --to pdf Fase2_LimpiezaTransformacion.ipynb
+jupyter nbconvert --to pdf Fase3_MODELADO.ipynb
+jupyter nbconvert --to pdf Fase04_evaluacion.ipynb
