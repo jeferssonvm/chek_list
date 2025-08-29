@@ -2,3 +2,37 @@ jupyter nbconvert --to pdf Fase1_exploracion.ipynb
 jupyter nbconvert --to pdf Fase2_LimpiezaTransformacion.ipynb
 jupyter nbconvert --to pdf Fase3_MODELADO.ipynb
 jupyter nbconvert --to pdf Fase04_evaluacion.ipynb
+
+🧩 ¿POR QUÉ USAR VARIAS MÉTRICAS?
+
+    MSE y RMSE: Detectan errores grandes.
+    MAE: Aporta claridad sobre el error promedio.
+    R²: Indica el nivel de explicación del modelo.
+ ¿EN QUÉ CONSISTE LA EVALUACIÓN DE UN MODELO?
+
+    Similar a analizar a un deportista: no basta con jugar, importa la precisión.
+    En machine learning, no solo interesa predecir, sino acertar.
+
+📏 MÉTRICAS MÁS USADAS
+
+✔️ MSE (Error Cuadrático Medio)
+
+    Amplifica errores grandes.
+    Útil para identificar desviaciones fuertes.
+
+✔️ RMSE (Raíz del Error Cuadrático Medio)
+
+    Es la raíz del MSE.
+    Devuelve el error a la escala real.
+
+✔️ MAE (Error Absoluto Medio)
+
+    Promedio de errores.
+    Resistente a valores atípicos.
+
+✔️ R² (Coeficiente de Determinación)
+
+    Mide cuánta variabilidad del dato real explica el modelo.
+
+
+pca
